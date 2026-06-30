@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingBottom="40dp">
+
+        <!-- Nombre -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Nombre *" android:textSize="14sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="@string/hint_nombre"
+                android:inputType="textPersonName" android:maxLines="1"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Apellido -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Apellido *" android:textSize="14sp" android:textColor="@color/text_secondary"
+            android:layout_marginTop="12dp" android:layout_marginBottom="4dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etApellido"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="@string/hint_apellido"
+                android:inputType="textPersonName" android:maxLines="1"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Fecha nacimiento -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento * (YYYY-MM-DD)" android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="12dp" android:layout_marginBottom="4dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFechaNacimiento"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="2005-03-15"
+                android:inputType="numberDecimal" android:maxLines="1"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Categoría -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Categoría *" android:textSize="14sp" android:textColor="@color/text_secondary"
+            android:layout_marginTop="12dp" android:layout_marginBottom="4dp" />
+        <Spinner
+            android:id="@+id/spinnerCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_spinner"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <!-- Disciplina -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Disciplina *" android:textSize="14sp" android:textColor="@color/text_secondary"
+            android:layout_marginTop="12dp" android:layout_marginBottom="4dp" />
+        <Spinner
+            android:id="@+id/spinnerDisciplina"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_spinner"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <!-- Grupo -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Grupo (opcional)" android:textSize="14sp" android:textColor="@color/text_secondary"
+            android:layout_marginTop="12dp" android:layout_marginBottom="4dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGrupo"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="@string/hint_grupo"
+                android:inputType="text" android:maxLines="1"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Guardar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_guardar"
+            android:textSize="16sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="32dp"
+            app:backgroundTint="@color/primary" />
+
+    </LinearLayout>
+
+</ScrollView>

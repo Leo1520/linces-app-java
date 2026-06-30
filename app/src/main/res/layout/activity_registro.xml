@@ -42,7 +42,8 @@
                 android:layout_height="wrap_content"
                 android:hint="entrenador@ejemplo.com"
                 android:inputType="textEmailAddress"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:imeOptions="actionNext" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Mínimo 6 caracteres"
                 android:inputType="textPassword"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:imeOptions="actionNext" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,7 +96,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Repite la contraseña"
                 android:inputType="textPassword"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:imeOptions="actionNext" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -160,7 +163,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Tu respuesta secreta"
                 android:inputType="textNoSuggestions"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:imeOptions="actionNext" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

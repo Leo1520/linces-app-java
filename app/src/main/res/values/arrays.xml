@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_atleta">
+        <item>Infantil</item>
+        <item>Juvenil</item>
+    </string-array>
+
+    <string-array name="disciplinas_atleta">
+        <item>100m planos</item>
+        <item>200m planos</item>
+        <item>400m planos</item>
+        <item>800m planos</item>
+        <item>1500m planos</item>
+        <item>Salto largo</item>
+        <item>Salto alto</item>
+        <item>Lanzamiento de bala</item>
+        <item>Lanzamiento de jabalina</item>
+        <item>Relevos</item>
+    </string-array>
+</resources>
