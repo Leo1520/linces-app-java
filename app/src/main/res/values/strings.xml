@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Linces App</string>
+
+    <!-- Títulos de pantallas -->
+    <string name="title_registro">Crear cuenta</string>
+    <string name="title_login">Ingresar</string>
+    <string name="title_principal">Inicio</string>
+    <string name="title_atletas">Atletas</string>
+    <string name="title_perfil_atleta">Perfil de atleta</string>
+    <string name="title_agenda">Agenda semanal</string>
+    <string name="title_crear_sesion">Nueva sesión</string>
+    <string name="title_asistencia">Asistencia</string>
+    <string name="title_registrar_marca">Registrar marca</string>
+    <string name="title_historial_marcas">Historial de marcas</string>
+    <string name="title_competencias">Competencias</string>
+    <string name="title_crear_competencia">Nueva competencia</string>
+    <string name="title_detalle_competencia">Competencia</string>
+
+    <!-- Botones y acciones comunes -->
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registrar">Registrar</string>
+
+    <!-- Campos de formulario -->
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="hint_disciplina">Disciplina</string>
+    <string name="hint_categoria">Categoría</string>
+    <string name="hint_grupo">Grupo</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_lugar">Lugar</string>
+    <string name="hint_notas">Notas</string>
+
+    <!-- Estados de asistencia -->
+    <string name="estado_presente">Presente</string>
+    <string name="estado_ausente">Ausente</string>
+    <string name="estado_licencia">Licencia</string>
+
+    <!-- Mensajes -->
+    <string name="msg_sin_atletas">No hay atletas registrados</string>
+    <string name="msg_sin_sesiones">No hay sesiones registradas</string>
+    <string name="msg_sin_marcas">No hay marcas registradas</string>
+    <string name="msg_sin_competencias">No hay competencias registradas</string>
+    <string name="msg_guardado_exitoso">Guardado exitosamente</string>
+    <string name="msg_error_campos">Por favor complete todos los campos requeridos</string>
+    <string name="msg_confirmar_eliminar">¿Está seguro que desea eliminar este registro?</string>
+</resources>

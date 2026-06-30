@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LincesApp">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.RegistroActivity"
+            android:label="@string/title_registro" />
+        <activity android:name=".activities.LoginActivity"
+            android:label="@string/title_login" />
+        <activity android:name=".activities.PrincipalActivity"
+            android:label="@string/title_principal" />
+        <activity android:name=".activities.ListaAtletasActivity"
+            android:label="@string/title_atletas" />
+        <activity android:name=".activities.PerfilAtletaActivity"
+            android:label="@string/title_perfil_atleta" />
+        <activity android:name=".activities.AgendaSemanalActivity"
+            android:label="@string/title_agenda" />
+        <activity android:name=".activities.CrearSesionActivity"
+            android:label="@string/title_crear_sesion" />
+        <activity android:name=".activities.RegistroAsistenciaActivity"
+            android:label="@string/title_asistencia" />
+        <activity android:name=".activities.RegistrarMarcaActivity"
+            android:label="@string/title_registrar_marca" />
+        <activity android:name=".activities.HistorialMarcasActivity"
+            android:label="@string/title_historial_marcas" />
+        <activity android:name=".activities.ListaCompetenciasActivity"
+            android:label="@string/title_competencias" />
+        <activity android:name=".activities.CrearCompetenciaActivity"
+            android:label="@string/title_crear_competencia" />
+        <activity android:name=".activities.DetalleCompetenciaActivity"
+            android:label="@string/title_detalle_competencia" />
+
+    </application>
+
+</manifest>
